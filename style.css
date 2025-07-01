@@ -1,0 +1,340 @@
+body {
+    font-family: Bookman, URW Bookman L, serif;
+    width: 80%;
+    justify-self: center;
+    background-color: rgba(220, 199, 234, 0.76);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.part1 {
+    background-color: #ecebeb;
+    background-image: url("images/0b61f1f87e16785ea935dcf261cb80b3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navigation {
+    background-color: #f0f0fc;
+}
+
+body > div > div.navigation > ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+    align-items: center;
+}
+
+body > div > div.navigation > ul > li > a {
+    text-decoration: none;
+    color: #8198a5;
+    font-size: 18px;
+}
+
+body > div > div.navigation > ul > li {
+    list-style: none;
+    font-weight: bold;
+}
+
+body > div > div.navigation > ul > li > a:hover {
+    color: #d2b2d9;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+body > div > div.navigation > ul > li:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s;
+}
+.image1 {
+    width: 230px;
+    height: auto;
+    border-radius: 150px;
+    border: 2px solid #8198a5;
+    padding: 5px;
+    position: relative;
+    top: -40px;
+}
+
+#home h1 {
+    color: #f1f1f1;
+    font-size: 40px;
+}
+
+#home h3 {
+    color: #f1f1f1;
+    font-size: 25px;
+}
+
+#home p {
+    color: #f1f1f1;
+    width: 500px;
+    font-size: 20px;
+}
+
+#home {
+    justify-self: center;
+    display: flex;
+    gap: 60px;
+    padding: 100px 10px;
+}
+
+#ab-me-btn {
+    background-color: rgba(225, 197, 237, 0.39);
+    border: 2px solid rgba(129, 152, 165, 0.62);
+    padding: 16px 20px;
+    border-radius: 20px;
+    color: rgba(129, 152, 165, 0.62);
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+#ab-me-btn:hover {
+    cursor: pointer;
+    color: #c1a6c7;
+    border-color: #d2b2d9;
+    background-color: rgba(240, 238, 241, 0.41);
+    transition: 0.4s;
+}
+
+#about-me {
+    background-color: #edddf8;
+    padding: 150px;
+    display: flex;
+    gap: 70px;
+}
+
+#about-me > div > h1 {
+    color: #8198a5;
+}
+
+#about-me > div > p {
+    color: #c1a5c7;
+    line-height: 25px;
+}
+
+#about-me > img {
+    width: 300px;
+    border: 3px dotted #8198a5;
+    padding: 10px;
+}
+
+#education {
+    background-color: rgba(208, 202, 211, 0.55);
+    padding: 100px;
+}
+
+.heading {
+    text-align: center;
+    margin: 0 6rem;
+    font-size: 4rem;
+    padding: 1rem;
+    border-bottom: .1rem solid #fff4;
+    color: rgba(0, 0, 0, 0.63);
+}
+
+.heading span {
+    color: #c7a7ce;
+}
+
+#education .box-container {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1.5rem 3rem 0 0;
+}
+
+#education .box-container .box {
+    width: 290px;
+    margin: 4rem 1rem;
+    padding-left: 4rem;
+    border-left: .2rem solid #8198a5;
+    position: relative;
+    background: #dccde0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 0.6rem;
+}
+
+#education .box-container .box span {
+    font-size: 1rem;
+    background: rgba(85, 85, 85, 0.44);
+    color: #fff;
+    border-radius: 5rem;
+    padding: .5rem 2.5rem;
+    display: inline-block;
+}
+
+#education .box-container .box h3 {
+    font-size: 25px;
+    color: #8198a5;
+    padding-top: 1.5rem;
+}
+
+#education .box-container .box h4 {
+    font-size: 1.2rem;
+    color: #8198a5;
+    padding-top: .5rem;
+    padding-bottom: 1.3rem;
+}
+
+#education .box-container .box i.obrazovanie {
+    position: absolute;
+    top: -1.5rem;
+    left: -2.5rem;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    line-height: 5rem;
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    background: rgba(193, 166, 199, 0.61);
+}
+
+@media (max-width: 768px) {
+    #education .box-container {
+        flex-direction: column;
+        padding-left: 0;
+    }
+
+    #education .box-container .box {
+        width: 100%;
+        margin: 2rem 0;
+        padding-left: 3rem;
+    }
+}
+
+div.box {
+    background-color: #c1a6c7;
+}
+
+#contact-me {
+    padding: 6rem 6rem;
+    color: #eee;
+    background: #ecdcf7;
+    min-height: 100vh;
+}
+
+#contact-me .heading {
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 6rem;
+    color: #fff;
+}
+
+#contact-me .heading span {
+    color: #8198a5;
+}
+
+#contact-me .info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4rem;
+}
+
+#contact-me .info .content {
+    flex: 1 1 30rem;
+    padding: 2rem;
+}
+
+#contact-me .info .content .title {
+    text-transform: uppercase;
+    color: #b196bb;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #d6c7dc;
+    margin-bottom: 2rem;
+}
+
+#contact-me .info .content .info-c {
+    font-size: 1.1rem;
+    color: #9f97a2;
+}
+
+#contact-me .info .content .info-c h3 {
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+}
+
+#contact-me .info form {
+    flex: 1 1 45rem;
+    background: #d8cedf;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #926e9a;
+    width: 600px
+}
+
+#contact-me .info form .box {
+    display: block;
+    width: 95%;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    background: rgba(209, 177, 216, 0.2);
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1.1rem;
+    border: none;
+    resize: none;
+}
+
+
+
+#contact-me .info form .box::placeholder {
+    color: #9f97a2;
+    text-transform: capitalize;
+}
+
+#contact-me .info form .message {
+    height: 15rem;
+    resize: none;
+}
+#contact-me > div > div.form-content > form > textarea {
+    background-color: #d7c8dd;
+    border: none;
+    padding: 10px 0 0 23px;
+    width: 90%;
+    color: #9e96a1;
+    font-size: 15px;
+}
+
+#contact-me button {
+    display: inline-block;
+    padding: .5rem 1.5rem;
+    background: #e8d3f3;
+    color: #a8aec3;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    border: 2px solid #a8aec3;
+    margin-top: 6px;
+}
+
+#contact-me button:hover {
+    cursor: pointer;
+    color: #c1a6c7;
+    border-color: #d2b2d9;
+    background-color: rgba(240, 238, 241, 0.41);
+    transition: 0.4s;
+}
+
+@media (max-width: 768px) {
+    #contact-me .info {
+        flex-direction: column;
+        padding: 0 2rem;
+    }
+
+    #contact-me .info .content,
+    #contact-me .info form {
+        flex: 1 1 100%;
+        margin-bottom: 2rem;
+    }
+}
